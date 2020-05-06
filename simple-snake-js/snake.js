@@ -8,7 +8,7 @@ function Snake() {
 
 
     this.draw = function () {
-        ctx.fillStyle = "#FFFFFF";
+        ctx.fillStyle = "#EEE0CB";
 
         for (let i = 0; i < this.tail.length; i++) {
             ctx.fillRect(this.tail[i].x, this.tail[i].y, scale, scale);
